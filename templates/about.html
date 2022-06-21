@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Про проект
+{% endblock %}
+
+{% block body %}
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Склад гурту</h1>
+      </div>
+    </div>
+  </section>
+
+<div class="album py-5 bg-dark">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="../static/imgs/julia.jpg" width="100%" height="225" aria-label="Julia" focusable="false">
+            <div class="card-body">
+                <h5 class="text-center">Юлія Саніна</h5><br><p class="text-center fs-4">Вокал, автор текстів та музики</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="../static/imgs/valera.jpeg" width="100%" height="225" aria-label="Valera" focusable="false">
+            <div class="card-body">
+                <h5 class="text-center">Валерій «Val» Бебко</h5><br><p class="text-center fs-4">Баритон-гітарист, креативний продюсер</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="../static/imgs/klym.jpg" width="100%" height="225" aria-label="Klym" focusable="false">
+            <div class="card-body">
+                <h5 class="text-center">Клим Лисюк</h5><br><p class="text-center fs-4">Бас-гітарист</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="../static/imgs/jenya.jpg" width="100%" height="225" aria-label="Jenya" focusable="false">
+            <div class="card-body">
+                <h5 class="text-center">Євген Кібелєв</h5><br><p class="text-center fs-4">Ударні</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<div class="bg-dark w-100 pb-2 text-light">
+    <h2 class="text-center">Мета проекту</h2>
+    <div class="container p-3 text-center w-25">
+       Метою створення цієї веб-сторінки є розповсюдження інформації про цей дуже популярний гурт в Україні. Тому на цьому сайті ви може ознайомитися з ним а також дізнатися про історію гурту та їх альбоми
+    </div>
+</div>
+{% endblock %}
